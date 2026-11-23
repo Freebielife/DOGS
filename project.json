@@ -1,0 +1,104 @@
+{
+  "slug": "dogs",
+  "name": "Dogs",
+  "symbol": "DOGS",
+  "master": "EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS",
+  "decimals": 9,
+  "github": {
+    "owner": "Freebielife",
+    "repo": "DOGS"
+  },
+  "pools": [
+    {
+      "address": "EQBjB_2TLdpOhhj25F_gYmM6fMb8hbI3rx-EA4g_ALr9O0RJ",
+      "dex": "dedust",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQBjB_2TLdpOhhj25F_gYmM6fMb8hbI3rx-EA4g_ALr9O0RJ/events?limit=100"
+    },
+    {
+      "address": "EQCcD96ywHvlXBjuf4ihiGyH66QChHesNyoJSQ6WKKqob3Lh",
+      "dex": "stonfi",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQCcD96ywHvlXBjuf4ihiGyH66QChHesNyoJSQ6WKKqob3Lh/events?limit=100"
+    }
+  ],
+  "primary_pool": "EQBjB_2TLdpOhhj25F_gYmM6fMb8hbI3rx-EA4g_ALr9O0RJ",
+  "links": {
+    "x": "https://x.com/realDogsHouse",
+    "website": "https://dogs.dev/links",
+    "telegram": "https://t.me/dogs"
+  },
+  "services": {
+    "UQD4uGNdB4a3f52mYOZf0x1nCmdd1DAvrLppL0a1cetTYCQx": "Binance",
+    "EQDPfqI17W9lF-3OmAJu92GOn22BoTMdTmW6cY4s0V-ArRRY": "Bybit"
+  },
+  "engine_version": "1.3.0",
+  "discovery": {
+    "checkedAt": 1795429742,
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS/pools?page=1",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS/pools?page=2",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS/pools?page=3",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS/pools?page=4",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS/pools?page=5",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS/pools?page=6"
+    ],
+    "primaryPoolPolicy": "largest indexed USD liquidity among swap-verified supported TON pools"
+  },
+  "project_description": {
+    "text": "DOGS — токен в сети TON. В официальном канале проект описывает его как мем-токен сообщества Telegram, вдохновлённый персонажем Spotty Павла Дурова.",
+    "origin": "reviewed_sources",
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS",
+      "https://dogs.dev/links",
+      "https://t.me/dogs/2"
+    ],
+    "checked_at": "2026-11-23"
+  },
+  "flag_file": "web/project-flag.webp",
+  "logo_file": "web/project-logo.webp",
+  "logo_origin": "token_metadata",
+  "logo_source": "https://cdn.dogs.dev/dogs.png",
+  "flag_source": "TONecoFlags #035; explicitly selected by user; TONecoFlags-catalog-standalone.zip",
+  "service_provenance": {
+    "0:f8b8635d0786b77f9da660e65fd31d670a675dd4302facba692f46b571eb5360": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    },
+    "0:cf7ea235ed6f6517edce98026ef7618e9f6d81a1331d4e65ba718e2cd15f80ad": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    }
+  },
+  "template_repository": "Freebielife/TON-Observatory-Template",
+  "max_html_bytes": 2500000,
+  "ui": {
+    "holders_initial": 10,
+    "holders_expanded": 20
+  },
+  "methodology": {
+    "valuation": "last observed swap in primary_pool times CURRENT total supply; not circulating market cap",
+    "primary_pool": "EQBjB_2TLdpOhhj25F_gYmM6fMb8hbI3rx-EA4g_ALr9O0RJ",
+    "sellers": "sum of successful supported native TON swap sales; service roles excluded",
+    "holders": "balances excluding known services and identified contracts; unclassified accounts may remain until verified",
+    "burns": "accepted burn notifications and zero-address transfers shown as distinct evidence",
+    "usd": "historical TON/USD rate from CoinGecko",
+    "history": "incremental confirmed swaps; missing intervals remain partial"
+  },
+  "branding": {
+    "hero": {
+      "origin": "token_metadata",
+      "source": "https://cdn.dogs.dev/dogs.png",
+      "file": "web/project-logo.webp"
+    },
+    "sectionFlag": {
+      "source": "TONecoFlags #035; explicitly selected by user; TONecoFlags-catalog-standalone.zip",
+      "catalogueKey": null,
+      "emoji": null,
+      "file": "web/project-flag.webp"
+    },
+    "channel": "https://t.me/dogs"
+  },
+  "template_commit": "c618b19f51fcfa44264e753a6945419d63934992"
+}

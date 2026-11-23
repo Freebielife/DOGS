@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-11-23",
+  "template_version": "1.3.0",
+  "template_commit": "c618b19f51fcfa44264e753a6945419d63934992",
+  "html_sha256": "e17cc0f30b6cd9c79af1620628529e41ebf608261205d59e5a986e9e30324f9d",
+  "html_bytes": 935449,
+  "swap_rows": 1958,
+  "history_since_utc": "2026-11-13T06:13:45+00:00",
+  "history_complete": false,
+  "holders_collected": 100,
+  "collection_errors": [],
+  "python_tests_passed": 17,
+  "javascript_tests_passed": 15,
+  "browser_checks": {
+    "desktop_width": 1363,
+    "mobile_content_width": 375,
+    "horizontal_overflow": false,
+    "ru_en": true,
+    "holders_10_to_20": true,
+    "buy_filter": true,
+    "five_card_background_marks": true,
+    "copy_button_reports_copied": true
+  },
+  "external_rendering_resources": 0,
+  "internal_anchors_valid": true,
+  "external_links": [
+    {
+      "url": "https://dogs.dev/links",
+      "status": 200,
+      "final": "https://dogs.dev/links"
+    },
+    {
+      "url": "https://t.me/dogs",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://x.com/realDogsHouse",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://github.com/Freebielife/DOGS",
+      "status": 200,
+      "final": "https://github.com/Freebielife/DOGS"
+    },
+    {
+      "url": "https://gram.org/jetton/EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS",
+      "status": 200,
+      "final": "https://gram.org/jetton/EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS"
+    },
+    {
+      "url": "https://dedust.io/pools/EQBjB_2TLdpOhhj25F_gYmM6fMb8hbI3rx-EA4g_ALr9O0RJ",
+      "status": 200,
+      "final": "https://dedust.io/pools/EQBjB_2TLdpOhhj25F_gYmM6fMb8hbI3rx-EA4g_ALr9O0RJ"
+    },
+    {
+      "url": "https://app.ston.fi/pools/EQCcD96ywHvlXBjuf4ihiGyH66QChHesNyoJSQ6WKKqob3Lh",
+      "status": 200,
+      "final": "https://app.ston.fi/pools/EQCcD96ywHvlXBjuf4ihiGyH66QChHesNyoJSQ6WKKqob3Lh"
+    },
+    {
+      "url": "https://www.geckoterminal.com/ton/pools/EQBjB_2TLdpOhhj25F_gYmM6fMb8hbI3rx-EA4g_ALr9O0RJ",
+      "status": 200,
+      "final": "https://www.geckoterminal.com/ton/pools/EQBjB_2TLdpOhhj25F_gYmM6fMb8hbI3rx-EA4g_ALr9O0RJ"
+    }
+  ],
+  "deployment": {
+    "ton_storage": "not_published",
+    "cloudflare": "not_connected_auth_required",
+    "github_schedule": "7,37 * * * *; scheduled run not yet observed"
+  }
+}
